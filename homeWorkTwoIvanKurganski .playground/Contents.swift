@@ -66,6 +66,7 @@ numberCellAndColor = ["1A": true,
                       "8F": true,
                       "8G": false,
                       "8H": true]
+
 /* if you want to know what color is cell you should write number of cell on the line below, the answer "true" says that this cell is black and the answer "false" says that this cell is white */
 print(numberCellAndColor["1H"] ?? true)
 
